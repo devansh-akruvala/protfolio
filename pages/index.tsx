@@ -9,14 +9,9 @@ import HeroSection from "@/sections/HeroSection";
 import AboutSection from "@/sections/AboutSection";
 import ProjectSection from "@/sections/ProjectSection";
 import ContactSection from "@/sections/ContactSection";
+import ExperienceSection from "@/sections/ExperienceSection"
 import Footer from "@/components/Footer";
 
-import { getAllPosts } from "utils/api";
-import { MdxMeta } from "../pages/blog/posts/[slug]";
-
-type Props = {
-  blogPosts: MdxMeta[];
-};
 
 export const meta = {
   description:
@@ -27,7 +22,7 @@ export const meta = {
   imageAlt: "Devansh Akruvala portfolio website",
 };
 
-const Home: NextPage<Props> = ({ blogPosts }) => {
+const Home: NextPage = () => {
   return (
     <>
       <AppHead
@@ -41,7 +36,8 @@ const Home: NextPage<Props> = ({ blogPosts }) => {
           <Header />
           <main id="main">
             <HeroSection />
-            <AboutSection />
+            <ExperienceSection/>
+            {/* <AboutSection /> */}
             <ProjectSection />
             <ContactSection />
           </main>
@@ -53,22 +49,5 @@ const Home: NextPage<Props> = ({ blogPosts }) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
-  const blogPosts = getAllPosts([
-    "coverImage",
-    "coverImageAlt",
-    "slug",
-    "title",
-    "excerpt",
-    "datetime",
-    "featured",
-  ]);
-
-  return {
-    props: {
-      blogPosts,
-    },
-  };
-};
 
 export default Home;

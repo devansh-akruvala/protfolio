@@ -6,12 +6,10 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 import devansh from "../public/devansh.png"
 
-import satNaing from "../public/satnaing-illustration.webp";
-import laptop from "../public/laptop-illustration.webp";
-
 const HeroSection: React.FC = () => {
   const sectionRef = useRef(null);
   const q = gsap.utils.selector(sectionRef);
+ 
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -32,30 +30,33 @@ const HeroSection: React.FC = () => {
     // illustration floating effect
     let imgTl = gsap.timeline({ repeat: -1 });
     imgTl
-      .to(q(".image-animation"), 3, {
+      .to(q(".image-animation"), {
+        duration:3,
         y: "-=30",
         x: "+=20",
-        rotation: "-=2",
+        rotation: "-=1",
         ease: "power1.easeInOut",
       })
-      .to(q(".image-animation"), 2, {
+      .to(q(".image-animation"), {
+        duration:3,
         y: "+=30",
         x: "-=20",
-        rotation: "-=2",
+        rotation: "-=1",
         ease: "power1.easeInOut",
       })
-      .to(q(".image-animation"), 3, {
+      .to(q(".image-animation"), {
+        duration:3,
         y: "-=20",
-        rotation: "+=2",
+        rotation: "+=1",
         ease: "power1.easeInOut",
       })
-      .to(q(".image-animation"), 3, {
+      .to(q(".image-animation"), {
+        duration:3,
         y: "+=20",
-        rotation: "+=2",
+        rotation: "+=1",
         ease: "power1.easeInOut",
       });
 
-    // laptop floating effect
  
   }, [q]);
 
