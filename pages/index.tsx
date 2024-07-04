@@ -2,11 +2,9 @@ import type { GetStaticProps, NextPage } from "next";
 
 import AppHead from "@/components/AppHead";
 import Loader from "@/components/Loader";
-import SkipToMain from "@/components/SkipToMain";
 import Header from "@/components/Header";
 import SocialLinks from "@/components/SocialLinks";
 import HeroSection from "@/sections/HeroSection";
-import AboutSection from "@/sections/AboutSection";
 import ProjectSection from "@/sections/ProjectSection";
 import ContactSection from "@/sections/ContactSection";
 import ExperienceSection from "@/sections/ExperienceSection"
@@ -32,12 +30,11 @@ const Home: NextPage = () => {
       <Loader>Devansh Akruvala</Loader>
       <div className="bg-bglight dark:bg-bgdark overflow-hidden">
         <div className="selection:bg-marrsgreen selection:text-bglight dark:selection:bg-carrigreen dark:selection:text-bgdark">
-          <SkipToMain />
+          
           <Header />
           <main id="main">
             <HeroSection />
             <ExperienceSection/>
-            {/* <AboutSection /> */}
             <ProjectSection />
             <ContactSection />
           </main>

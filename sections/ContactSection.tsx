@@ -6,6 +6,7 @@ import LinkButton from "@/components/LinkButton";
 import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
+import { email } from "data/email";
 
 const ContactSection: React.FC = () => {
   const { theme } = useTheme();
@@ -49,7 +50,7 @@ const ContactSection: React.FC = () => {
           challenges. If you have opportunities for collaboration or want to
           build something amazing, don't hesitate to contact me!
         </p>
-        <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
+        <LinkButton href={`mailto:${email}`}>
           Get in touch!
         </LinkButton>
       </div>
