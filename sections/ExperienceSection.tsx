@@ -30,7 +30,7 @@ const ExperienceSection: React.FC = () => {
       className="about-panel bg-white dark:bg-[#1B2731] relative"
     >    <section id="experience" className="section">
        <div className="project-title text-center">
-        <h2 className="section-heading">Experience and Education</h2>
+        <h2 className="section-heading">Experience</h2>
       </div>
       <VerticalTimeline lineColor={theme==='dark'?"#007a7a":"#05ce91"} >
         {experiences.map((exp) => {

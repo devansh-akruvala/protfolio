@@ -6,10 +6,9 @@ import { ProvideSection } from "context/section";
 
 import "../styles/globals.css";
 
-import gsap from "gsap";
-import Script from "next/script";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  
   return (
     <>
       <Head>

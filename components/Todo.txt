@@ -1,0 +1,9 @@
+1. Change Head Tab Icon
+2. Find different color combination
+3. LHS diamond square fix 
+4. footer fix
+    - remove name
+    - change socials
+5. Change Content
+6. Change font color in exp (light mode)
+7. Change font color in project (light mode)
