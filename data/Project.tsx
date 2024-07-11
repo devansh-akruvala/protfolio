@@ -16,7 +16,7 @@ export const projects:Project[] = [
         description: "A web app for code review, enhancing user collaboration and feedback quality, by enabling submission of pull requests and receiving feedback via comments and videos",
         links: [{
             url: "https://github.com/devansh-akruvala/Assignment-submission-app-backend",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         }]
     },
@@ -25,7 +25,7 @@ export const projects:Project[] = [
         description: "A CNN model for categorizing student engagement states, achieving 70\% accuracy via k-fold cross-validation, by managing diverse datasets, applying preprocessing, and conducting bias analysis on age and gender for fairness",
         links: [{
             url: "https://github.com/devansh-akruvala/A.I.ducation-Analytics",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         }]
     },
@@ -36,7 +36,7 @@ export const projects:Project[] = [
         description: "An Arduino and web solution for event security and management, reducing entry time by 43\%, by implementing dynamic form links for registration and QR code passes. Used by over 2000 users at university workshops and events",
         links: [{
             url: "https://github.com/devansh-akruvala/Smart-Entrance-System",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         }]
     },
@@ -46,7 +46,7 @@ export const projects:Project[] = [
         description: "Developed a RISK Warzone game using Java, enabling territory attacks with custom battle logic and random probability, by using design patterns like Strategy, Observer, State, Command, and Adapter to write scalable code",
         links: [{
             url: "https://github.com/devansh-akruvala/SOEN_6441_FALL_23_RISK_GAME",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         }]
     },
@@ -57,7 +57,7 @@ export const projects:Project[] = [
         description: "Developed a load balancer in Go, optimizing traffic distribution, by using algorithms such as round robin, iphash, and weighted response time",
         links: [{
             url: "https://github.com/devansh-akruvala/load-balancer-using-go",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         }]
     },
@@ -68,7 +68,7 @@ export const projects:Project[] = [
         description: "Developed a web app for creating and storing notes, enabling synchronization across multiple devices, providing rich text editing, and offering secure storage, through a responsive design and real-time database updates",
         links: [{
             url: "https://github.com/devansh-akruvala/mynotebook",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         },]
     },
@@ -79,7 +79,7 @@ export const projects:Project[] = [
         description: "A mobile app facilitating PDF creation from physical documents with cropping, rotation, and image adjustments, integrated advanced PDF management, editing, and secure digital vault with biometric authentication",
         links: [{
             url: "https://github.com/devansh-akruvala/Doc_Buddy",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         },
     ]
@@ -90,7 +90,7 @@ export const projects:Project[] = [
         description: "A mobile app facilitating PDF creation from physical documents with cropping, rotation, and image adjustments, integrated advanced PDF management, editing, and secure digital vault with biometric authentication",
         links: [{
             url: "https://github.com/devansh-akruvala/chat_app_flutter",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         },
     ]
@@ -100,7 +100,7 @@ export const projects:Project[] = [
         description: "Tool allowing users to write on a computer screen via webcam and a pen-like colored object. Leveraged contour detection and a similarity of triangles to improve accuracy and usability",
         links: [{
             url: "https://github.com/devansh-akruvala/Virtual-Blackboard-using-Image-Processing",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         },
     ]
@@ -110,7 +110,7 @@ export const projects:Project[] = [
         description: "An end-to-end parking solution employing ML models for empty spot detection, Haar Cascade for license plate recognition, Tesseract OCR for text extraction, and face recognition for driver authentication",
         links: [{
             url: "https://github.com/devansh-akruvala/Smart-Parking-System",
-            linkName: "Github",
+            linkName: "GitHub",
             icon: undefined
         },
     ]
