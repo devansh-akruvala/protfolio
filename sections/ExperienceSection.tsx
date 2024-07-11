@@ -8,8 +8,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import {experiences} from "data/Experience"
-
-import devansh from "public/devansh.png"
 import Image from "next/image";
 
 const ExperienceSection: React.FC = () => {
@@ -35,12 +33,13 @@ const ExperienceSection: React.FC = () => {
       <VerticalTimeline lineColor={theme==='dark'?"#007a7a":"#05ce91"} >
         {experiences.map((exp) => {
           return         <VerticalTimelineElement
+          key={exp.company+exp.date}
           className="vertical-timeline-element--work"
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="2011 - present"
+          date={exp.date}
           iconStyle={{ background: theme==='light'?"#007a7a":"#05ce91", color: "#fff" }}
           icon={ <Image className="rounded-full "
-            src={devansh}
+            src={exp.icon}
             alt=""
           />}
           contentStyle={{background:theme==='light'?"#007a7a":"#05ce91"}}
@@ -48,8 +47,11 @@ const ExperienceSection: React.FC = () => {
           <h3 className="text-xl">{exp.role}</h3>
           <h4 className="vertical-timeline-element-subtitle">{exp.company}</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+              {exp.work.map((workPoint)=>{
+                return (
+                  <li key= {workPoint} className="">{workPoint}</li>
+                )
+              })}
           </p>
         </VerticalTimelineElement>
         })}

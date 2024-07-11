@@ -14,14 +14,6 @@ const HeroSection: React.FC = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    // bg text parallax effect
-    gsap.to(q(".bg-text"), {
-      scrollTrigger: {
-        trigger: q(".bg-text"),
-        scrub: true,
-      },
-      y: 350,
-    });
 
     // text animation after initial load
     let tl = gsap.timeline({ defaults: { stagger: 0.2, duration: 0.3 } });
@@ -97,8 +89,8 @@ const HeroSection: React.FC = () => {
           </span>
         </div>
         <div className="mt-2 my-4 md:mb-8">
-          <p className="mb-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, explicabo. Ipsam vero repellat quis rerum assumenda laboriosam magnam iste officiis tempore, alias, amet consequuntur libero atque itaque. Eveniet, dolores exercitationem?
+          <p className="mb-1 text-mb">
+          A visionary software engineer known for driving innovation and efficiency in tech solutions. With a unique blend of creativity and technical prowess, consistently delivers high-impact projects that exceed expectations. Demonstrates exceptional leadership and a commitment to continuous learning, making a standout contributor to any tech team
           </p>
           
         </div>

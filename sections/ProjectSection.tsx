@@ -35,7 +35,7 @@ const ProjectSection: React.FC = () => {
   };
 
   return (
-    <section ref={sectionRef} id="projects" className="section">
+    <section ref={sectionRef} id="projects" className="section"  suppressHydrationWarning={true}>
       <div className="project-title text-center">
         <h2 className="section-heading">Projects</h2>
       </div>
@@ -97,6 +97,7 @@ const ProjectSection: React.FC = () => {
                     return (
                       <div>
                         <a
+                        key={link.url+link.linkName}
                           href={link.url}
                           className="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-600"
                           target="_blank"

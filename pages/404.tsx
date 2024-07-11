@@ -10,11 +10,7 @@ import Link from "next/link";
 const Home: NextPage = () => {
   return (
     <>
-      <AppHead
-        title="Sat Naing - A Full-stack Developer"
-        url={`${process.env.NEXT_PUBLIC_URL}`}
-        meta={meta}
-      />
+      <AppHead title="Devansh Akruvala"     />
       <div className="bg-bglight dark:bg-bgdark overflow-hidden">
         <div className="h-screen flex flex-col justify-center selection:bg-marrsgreen selection:text-bglight dark:selection:bg-carrigreen dark:selection:text-bgdark">
           <div className="flex justify-center items-center flex-col mt-auto">
@@ -32,12 +28,6 @@ const Home: NextPage = () => {
               <LinkButton href="/" outline>
                 Go back Home
               </LinkButton>
-              <Link
-                href="/blog"
-                className="link flex items-center px-4 lg:text-xl hover:underline"
-              >
-                Go to Blog
-              </Link>
             </div>
           </div>
           <Footer noPadding />
