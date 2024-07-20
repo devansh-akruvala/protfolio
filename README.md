@@ -2,7 +2,7 @@
 
 
 ## Features
-[devansh_akruvala_portfolio.github.io](devansh_akruvala_portfolio.github.io)
+[devansh_akruvala_portfolio.github.io](https://devansh-akruvala.github.io/protfolio)
 - Responsive Design 📱💻
 - Light & Dark themes ☀️🌙
 - Categories, Tags 🏷
