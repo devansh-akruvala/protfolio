@@ -15,6 +15,7 @@ module.exports = {
   // images: {
   //   domains: ['devansh_akruvala_portfolio.github.io'], // Add domains for optimized images
   // },
-  // output: "export",
+  output: "export",
+  reactStrictMode: true,
   // Define other configurations as required
 };
