@@ -6,15 +6,15 @@ module.exports = {
 
   // By default, Next.js will serve assets under /_next/ from the root.
   // If you have a different base path, you may configure it here.
-  // basePath: '/my-app',
+  basePath: '/portfolio',
 
   // Specify the page file extensions you want to be considered
   // pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 
   // Optimize images
-  images: {
-    domains: ['devansh_akruvala_portfolio.github.io'], // Add domains for optimized images
-  },
-
+  // images: {
+  //   domains: ['devansh_akruvala_portfolio.github.io'], // Add domains for optimized images
+  // },
+  output: "export",
   // Define other configurations as required
 };
