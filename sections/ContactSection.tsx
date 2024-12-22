@@ -28,7 +28,7 @@ const ContactSection: React.FC = () => {
     <section
       ref={sectionRef}
       id="contact"
-      className="section min-h-[700px] text-center"
+      className="min-h-[700px] text-center bg-[#ECEff1] dark:bg-[#1C2A3A] mb-2"
     >
       <div className="text-center">
           <h2 className="text-2xl inline-block my-6 font-medium">Contact</h2>

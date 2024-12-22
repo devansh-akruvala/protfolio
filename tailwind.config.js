@@ -14,20 +14,20 @@ module.exports = {
       xl: "1440px",
     },
     fontFamily: {
-      sans: ['"Jost"', "sans-serif"],
+      sans: ['"Roboto"', "sans-serif"],
     },
     extend: {
       colors: {
         bglight: "#F9FAFB",
         marrslight: "#1C9A9A",
-        marrsgreen: "#007A7A",
+        marrsgreen: "#666666",
         marrsdark: "#004D4D",
         cardlight: "#EFF3F3",
 
         // bgdark: "#2D2D2D",
-        bgdark: "#1D2A35",
+        bgdark: "#0A192F",
         carrilight: "#57DCB4",
-        carrigreen: "#05CE91",
+        carrigreen: "#AAB4BE",
         carridark: "#00835B",
         // carddark: "#383838",
         carddark: "#22323F",

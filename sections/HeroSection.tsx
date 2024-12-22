@@ -55,7 +55,7 @@ const HeroSection: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative mt-16 sm:mt-8 pt-8 lg:pt-0 px-4 sm:px-8 md:px-20 max-w-5xl sm:pb-24 min-h-[769px] mx-auto sm:flex sm:flex-col sm:justify-center sm:items-center lg:flex-row-reverse"
+      className="relative mt-16 sm:mt-8 pt-8 lg:pt-0 px-4 sm:px-8 md:px-20 max-w-5xl sm:pb-24 min-h-[769px] mx-auto sm:flex sm:flex-col sm:justify-center sm:items-center lg:flex-row-reverse "
     >
 
 
@@ -79,7 +79,7 @@ const HeroSection: React.FC = () => {
           Hi I'm
         </span>
         <div className="overflow-hidden">
-          <h1 className="text-animation text-3xl md:text-4xl lg:text-6xl md:my-2 font-semibold my-1">
+          <h1 className="text-animation text-3xl md:text-4xl lg:text-6xl md:my-2 font-semibold my-1 ">
             Devansh Akruvala
           </h1>
         </div>
@@ -89,7 +89,7 @@ const HeroSection: React.FC = () => {
           </span>
         </div>
         <div className="mt-2 my-4 md:mb-8">
-          <p className="mb-1 text-mb">
+          <p className="mb-1 text-mb text">
           A visionary software engineer known for driving innovation and efficiency in tech solutions. With a unique blend of creativity and technical prowess, consistently delivers high-impact projects that exceed expectations. Demonstrates exceptional leadership and a commitment to continuous learning, making a standout contributor to any tech team
           </p>
           
@@ -101,7 +101,7 @@ const HeroSection: React.FC = () => {
           ? "border border-marrsgreen hover:bg-marrsgreen dark:border-carrigreen dark:hover:bg-carrigreen text-marrsgreen hover:text-cardlight dark:text-carrigreen dark:hover:text-carddark transition"
           : "bg-marrsgreen hover:bg-marrslight active:bg-marrsdark dark:hover:bg-carrilight dark:active:bg-carridark dark:bg-carrigreen text-bglight dark:text-bgdark"
       } py-2 px-3 rounded lg:text-xl ${""} outline-marrsgreen dark:outline-carrigreen focus-visible:outline-double outline-offset-2`} 
-        href="/Devansh_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
+        href="/Devansh_Akruvala_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
       Download Resume
     </a>
 

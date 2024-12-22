@@ -2,7 +2,8 @@ import { StaticImageData } from "next/image"
 import koolmind_logo from "public/logos/koolmind_logo.png"
 import isro_logo from "public/logos/isro_logo.png"
 import navpad_logo from "public/logos/navpad_logo.jpeg"
-
+import aisquare_logo from "public/logos/aisquare.jpg"
+import concordia_logo from "public/logos/concordia _logo.png"
 
 type Experience = {
     role:string,
@@ -15,6 +16,27 @@ type Experience = {
 export const experiences:Experience[] = [
     {
         role: "Software Engineer",
+        company: "AISquare (Opengrowth)",
+        work: [
+            "Reduced authentication time by 38% by building a Single Sign-On microservice with Django Rest Framework, enabling seamless login across multiple subdomains",
+            "Enhanced system responsiveness by implementing Celery for async task execution and automating RAG data injection with Django signals",
+            "Achieved a 9% cost reduction by integrating LangSmith for LLM call monitoring and prompt optimization"
+        ],
+        icon: aisquare_logo,
+        date:"July 2024 -- Present"
+    },
+    {
+        role: "Teaching Assistant",
+        company: "Concordia University",
+        work: [
+            "Led tutorials for a Data Structures and Algorithms course, teaching core concepts and live coding in Java to strengthen students’ problem-solving abilities and coding proficiency",
+            "Guided students in a Programming and Problem-Solving course, helping them identify edge cases and write optimized code during lab sessions"
+          ],
+        icon: concordia_logo,
+        date:"August 2024 -- December 2024"
+    },
+    {
+        role: "Software Engineer",
         company: "KoolMind Technolab",
         work: [
             "Increased transaction success rate by 13% by integrating 3 payment gateways in a Java microservice",
@@ -23,7 +45,7 @@ export const experiences:Experience[] = [
 "Enabled data-driven decisions with interactive React and Redux dashboards"
         ],
         icon: koolmind_logo,
-        date:"June 2022 -- July2023"
+        date:"June 2022 -- July 2023"
     },
     {
         role: "Machine Learning Engineer Intern",

@@ -25,7 +25,7 @@ const ExperienceSection: React.FC = () => {
   return (
     <div
       ref={sectionRef}
-      className="about-panel bg-white dark:bg-[#1B2731] relative"
+      className="about-panel bg-[#ECEff1] dark:bg-[#1C2A3A] relative"
     >    <section id="experience" className="section">
        <div className="project-title text-center">
         <h2 className="section-heading">Experience</h2>
@@ -42,17 +42,17 @@ const ExperienceSection: React.FC = () => {
             src={exp.icon}
             alt=""
           />}
-          contentStyle={{background:theme==='light'?"#007a7a":"#05ce91"}}
+          contentStyle={{background:theme==='light'?"#D1D8E0":"#263641"}}
         >
           <h3 className="text-xl">{exp.role}</h3>
           <h4 className="vertical-timeline-element-subtitle">{exp.company}</h4>
-          <p>
+          <div>
               {exp.work.map((workPoint)=>{
                 return (
                   <li key= {workPoint} className="">{workPoint}</li>
                 )
               })}
-          </p>
+          </div>
         </VerticalTimelineElement>
         })}
 

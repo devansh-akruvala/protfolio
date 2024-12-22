@@ -59,7 +59,7 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
 
 const navLinks = [
   {
-    url: "/",
+    url: "#",
     text: "Welcome",
   },
   {

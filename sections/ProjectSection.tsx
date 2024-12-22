@@ -48,21 +48,21 @@ const ProjectSection: React.FC = () => {
         <table className="w-full border-collapse border border-gray-200 dark:border-gray-700">
           <thead className="bg-gray-50 dark:bg-gray-800">
             <tr className="border-b border-gray-300 dark:border-gray-600">
-              <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+              <th className="px-4 py-2 text-left text-xs font-medium text-[#333333] uppercase tracking-wider dark:text-[#EAEAEA]">
                 Name
               </th>
-              <th className="px-6 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300">
+              <th className="px-6 py-2 text-left text-xs font-medium text-[#333333] uppercase tracking-wider dark:text-[#EAEAEA]">
                 Tech Stack
               </th>
-              <th className="px-8 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300 w-2/6">
+              <th className="px-8 py-2 text-left text-xs font-medium text-[#333333] uppercase tracking-wider dark:text-[#EAEAEA] w-2/6">
                 Description
               </th>
-              <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider dark:text-gray-300 w-1/6">
+              <th className="px-4 py-2 text-left text-xs font-medium text-[#333333] uppercase tracking-wider dark:text-[#EAEAEA] w-1/6">
                 Links
               </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+          <tbody className="divide-y divide-gray-200 dark:">
             {projects.map((project) => (
               <tr
                 key={project.name}
@@ -88,7 +88,7 @@ const ProjectSection: React.FC = () => {
                   ))}
                 </td>
                 <td className="px-4 py-4 w-2/6">
-                  <div className="text-sm text-gray-500 dark:text-gray-200">
+                  <div className="text-sm text-[#333333] dark:text-gray-200">
                     {project.description}
                   </div>
                 </td>
