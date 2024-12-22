@@ -108,7 +108,7 @@ const HeroSection: React.FC = () => {
 
       </div>
       <a
-        href="#whoami"
+        href="#experience"
         className="group absolute link-outline animate-bounce hidden md:bottom-14 lg:bottom-16 left-1/2 transform -translate-x-1/2 md:flex items-center flex-col"
       >
         <span className="group-hover:text-marrsgreen dark:group-hover:text-carrigreen">
